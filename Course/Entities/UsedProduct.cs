@@ -20,7 +20,7 @@ namespace Course.Entities
             return Name
                    + " (used) $"
                    + Price.ToString("F2", CultureInfo.InvariantCulture)
-                   + $"(Manufacture date: {ManufactureDate.ToString("dd/mm/yyyy")})";
+                   + $"(Manufacture date: {ManufactureDate.ToString("dd/MM/yyyy")})";
         }
     }
 }
